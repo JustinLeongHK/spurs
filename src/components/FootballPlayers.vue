@@ -15,47 +15,9 @@
 
 <script>
 export default {
+  props: ["players"],
   data() {
-    return {
-      players: [
-        {
-          name: "Heung-Min Son",
-          location: "Chuncheon, South Korea",
-          position: "Striker",
-          show: false,
-        },
-        {
-          name: "Richarlison",
-          location: "Nova Venecia, Brazil",
-          position: "Striker",
-          show: false,
-        },
-        {
-          name: "James Maddison",
-          location: "Coventry England",
-          position: "Playmaker",
-          show: false,
-        },
-        {
-          name: "Guglielmo Vicario",
-          location: "Udine, Italy",
-          position: "Goalkeeper",
-          show: false,
-        },
-        {
-          name: "Cristian Romero",
-          location: "Cordoba, Argentina",
-          position: "Defender",
-          show: false,
-        },
-        {
-          name: "Dejan Kulusevski",
-          location: "Stockholm, Sweden",
-          position: "Left Winger",
-          show: false,
-        },
-      ],
-    };
+    return {};
   },
 };
 </script>
